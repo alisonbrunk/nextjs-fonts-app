@@ -1,5 +1,5 @@
-import Head from "next/head";
-import styles from "./page.module.css";
+import Head from 'next/head'
+import styles from './page.module.css'
 
 export default function Home() {
   return (
@@ -11,7 +11,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-         <p className={styles.paragraph}>I am a nice readable font!</p>
+        <p className={styles.paragraph}>I am a nice readable font!</p>
       </main>
     </>
   )
